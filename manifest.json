@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Flip-a-Coin",
-    "version": "1.0",
+    "version": "1.1",
     "description": "A chrome extension that flips a coin for you, for you indecisive people.",
     "action": {
         "default_popup": "popup.html",
