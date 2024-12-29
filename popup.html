@@ -1,13 +1,22 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta "viewport" content="width=device-width, initial-scale=1">
-    <title>Flip-a-Coin</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heads or Tails</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Flip-a-Coin</h1>
-    <div id="result" style="font-size: 24px; margin-top: 20px;">Flip to see!</div>
-    <button id="flip">Flip coin</button>
-    <script src="popup.js"></script>
+  <h1>Heads or Tails</h1>
+  <div id="result">Flip to see!</div>
+  <button id="flipButton">Flip Coin</button>
+
+  <!-- Sound toggle -->
+  <div id="soundToggle">
+    <label for="soundEffect">Enable Sound Effects</label>
+    <input type="checkbox" id="soundEffect" checked>
+  </div>
+
+  <script src="popup.js"></script>
 </body>
+</html>
